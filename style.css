@@ -1,0 +1,164 @@
+/* Umum */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.4em;
+}
+
+/* Navigasi */
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 6px 12px;
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Profil */
+#profil h1 {
+    text-align: center;
+}
+
+#profil p {
+    text-align: justify;
+}
+
+#profil img {
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    width: 200px;
+}
+
+/* Multimedia */
+#multimedia {
+    text-align: center;
+}
+
+/* Projek */
+#projek {
+    text-align: center;
+}
+
+#projek img {
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#projek article {
+    background-color: #fff;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* Kontak */
+#kontak h2 {
+    text-align: center;
+}
+
+#kontak {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+#kontak form {
+    max-width: 600px;
+    margin: auto;
+}
+
+#kontak input,
+#kontak select,
+#kontak textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#kontak button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#kontak button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+footer a:hover {
+    color: #00d1ff;
+}
